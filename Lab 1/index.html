@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashwin - Creator</title>
+<meta name="description" content="Portfolio &amp; résumé of Ashwin, Creator">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Beau+Rivage&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/dc/a0/7b/dca07bcf071f1077cfca46c0259e25bd.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="logo">
+    <span class="logo-mark"></span><span class="logo-script">Ashwin</span>
+  </a>
+  <nav class="main-nav" aria-label="Primary">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#work">Work</a>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="mesh mesh-a"></div>
+    <div class="mesh mesh-b"></div>
+    <div class="mesh mesh-c"></div>
+    <svg class="hero-filament" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">
+      <filter id="grain">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise"/>
+        <feColorMatrix in="noise" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.03 0"/>
+      </filter>
+      <rect width="100%" height="100%" filter="url(#grain)"/>
+    </svg>
+  </div>
+
+  <p class="hero-eyebrow">Portfolio &amp; Résumé — 2026</p>
+
+  <h1 class="hero-headline">
+    <span class="line-1">The craft</span>
+    <span class="line-2"><em>of</em> building</span>
+    <span class="script-word">experiences</span>
+  </h1>
+
+  <button class="scroll-cue" id="scrollCue" aria-label="Scroll to work">
+    <span class="scroll-dot-icon"><span></span></span>
+    <span class="scroll-label">Scroll</span>
+  </button>
+
+  <a href="#contact" class="pill-cta">
+    <span class="pill-icon">→</span>
+    Let's build something
+  </a>
+</section>
+
+<section class="interstitial" id="about">
+  <div class="interstitial-glow" aria-hidden="true"></div>
+  <p class="interstitial-kicker">Hi, I'm Ashwin —</p>
+  <h2 class="interstitial-headline">
+    <em>Stories</em> take shape<br>
+    through <span class="script-word small">code</span>
+  </h2>
+
+  <div class="about-grid">
+    <div class="about-portrait" aria-hidden="true">
+      <div class="portrait-blob">
+        <img src="https://i.pinimg.com/736x/9d/7d/71/9d7d71ac6ca22a0072b9ebab3975f1d3.jpg" alt="">
+      </div>
+    </div>
+    <div class="about-copy">
+      <p>I'm a creative developer based in Chennai, Tamil Nadu working at the seam between design and engineering. Over the last two years I've helped studios and startups turn ambitious ideas into interfaces that feel alive ; built on solid, accessible foundations underneath.</p>
+      <p>Outside of client work, I prototype small WebGL experiments and write about the craft of front-end animation.</p>
+      <dl class="fact-list">
+        <div><dt>Based in</dt><dd>Chennai, Tamil Nadu</dd></div>
+        <div><dt>Experience</dt><dd>2+ years</dd></div>
+        <div><dt>Currently</dt><dd>Open to select freelance work</dd></div>
+        <div><dt>Focus</dt><dd>Backend engineering, motion, design systems</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <h2 class="section-title"><span class="eyebrow">01 — Career</span>Experience</h2>
+
+  <ol class="timeline">
+    <li class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-dates">2026 — Present</span>
+        <span class="timeline-tag">Website</span>
+      </div>
+      <div class="timeline-body">
+        <h3>Software Development Engineer<span>· Bluemein Technologies</span></h3>
+        <p>Developer specializing in AI native systems , along with experience in full stack systems</p>
+        <ul class="timeline-points">
+          <li>Worked on the development on AI agents and RAG</li>
+          <li>Helped in the customization of white-labelled products for foreign clients</li>
+          <li>Learned the nitty-gritties of onboarding a client to delivering the project</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-dates">2025-2026</span>
+        <span class="timeline-tag">Product</span>
+      </div>
+      <div class="timeline-body">
+        <h3>Freelancer <span>· Self-employed</span></h3>
+        <p>Built a fully working E-commerce site</p>
+        <ul class="timeline-points">
+          <li>Used Wordpress and other related plugins to massively save money</li>
+          <li>Configured payment systems to be compatible in the UK</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-meta">
+        <span class="timeline-dates">2024 — 2025</span>
+        <span class="timeline-tag">Websites</span>
+      </div>
+      <div class="timeline-body">
+        <h3>Hobby Developer <span>· Self</span></h3>
+        <p>Built and maintained learning projects involving frontend , backkend and full stack systems</p>
+        <ul class="timeline-points">
+          <li>Had a lotta fun doing it</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section class="skills" id="skills">
+  <h2 class="section-title"><span class="eyebrow">02 — Toolkit</span>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3>Front end</h3>
+      <div class="pill-row">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>FastAPI</span><span>React</span><span>TailwindCSS</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Design</h3>
+      <div class="pill-row">
+        <span>Figma</span><span>Motion design</span><span>Design systems</span><span>Prototyping</span><span>Typography</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Tooling</h3>
+      <div class="pill-row">
+        <span>Git</span><span>Vite</span><span>Node.js</span><span>Storybook</span><span>Accessibility auditing</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Practice</h3>
+      <div class="pill-row">
+        <span>Client workshops</span><span>Tech Events</span><span>Cross-team collaboration</span><span>Performance tuning</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="work" id="work">
+  <h2 class="section-title light"><span class="eyebrow">03 — Selected</span>Work</h2>
+
+  <article class="project">
+    <h3 class="project-word">Project Mayhem</h3>
+    <div class="project-shape shape-a" aria-hidden="true"></div>
+    <div class="project-info">
+      <span class="tag-pill">Portfolio</span>
+      <p class="project-cat">Frontend / UI-UX</p>
+      <p class="project-desc">My Freelance Portfolio</p>
+      <a href="https://project-mayhem-fc.vercel.app/" class="ghost-btn" target="_blank">View project <span>→</span></a>
+    </div>
+  </article>
+
+  <article class="project">
+    <h3 class="project-word">Sunnyside</h3>
+    <div class="project-shape shape-b" aria-hidden="true"></div>
+    <div class="project-info">
+      <span class="tag-pill">Website</span>
+      <p class="project-cat">HMTL / CSS / JS</p>
+      <p class="project-desc">A Website created for a design agency</p>
+      <a href="https://sunnyside-agency-whiplash.vercel.app/" class="ghost-btn" target="_blank">View project <span>→</span></a>
+    </div>
+  </article>
+
+  <article class="project">
+    <h3 class="project-word">Moneyball</h3>
+    <div class="project-shape shape-c" aria-hidden="true"></div>
+    <div class="project-info">
+      <span class="tag-pill">Retail Marketplace</span>
+      <p class="project-cat">React / FastAPI</p>
+      <p class="project-desc">Retailers Pushing Excess Stock , Consumers Getting Affordable Rates</p>
+      <a href="https://github.com/Ashwin-973/moneyball" class="ghost-btn" target="_blank">View project <span>→</span></a>
+    </div>
+  </article>
+</section>
+
+<section class="education">
+  <h2 class="section-title"><span class="eyebrow">04 — Study</span>Education</h2>
+  <div class="edu-grid">
+    <div class="edu-item">
+      <span class="edu-dates">2022-2024</span>
+      <h3>High School</h3>
+      <p>Shree Niketan Patasala</p>
+    </div>
+    <div class="edu-item">
+      <span class="edu-dates">2024-2028</span>
+      <h3>B.Tech</h3>
+      <p>Shiv Nadar University Chennai</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="burst" aria-hidden="true">
+    <svg viewBox="0 0 800 800" class="burst-svg">
+      <filter id="fractal">
+        <feTurbulence id="turb" type="fractalNoise" baseFrequency="0.012 0.03" numOctaves="4" seed="7" result="noise"/>
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="120"/>
+      </filter>
+      <g filter="url(#fractal)">
+        <circle cx="400" cy="400" r="230" fill="url(#burstGrad)"/>
+      </g>
+      <defs>
+        <radialGradient id="burstGrad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#e2a15c" stop-opacity="0.9"/>
+          <stop offset="45%" stop-color="#c9622f" stop-opacity="0.55"/>
+          <stop offset="100%" stop-color="#c9622f" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+    </svg>
+  </div>
+
+  <p class="contact-kicker">Let's work together</p>
+  <h2 class="contact-headline">Let us help you tell<br>your story the way it was meant</h2>
+
+  <div class="diamond-mark" aria-hidden="true">
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <a href="mailto:hello@narrator.com<" class="contact-email">hello@narrator.com</a>
+
+  <div class="social-row">
+    <a href="https://x.com/Glenn_maxi_32" target="_blank">X</a>
+    <a href="https://www.instagram.com/ashwin_s_973/" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/ashwin-s-360606325/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Ashwin-973" target="_blank">GitHub</a>
+  </div>
+
+  <footer class="site-footer">
+    <span>© 2026 Ashwin</span>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </footer>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
