@@ -1,0 +1,13 @@
+body { margin: 0; background: #f4f6f8; font-family: system-ui, sans-serif; color: #222; }
+.container { max-width: 760px; margin: 30px auto; padding: 0 16px; }
+h1 { text-align: center; }
+form { display: grid; gap: 10px; background: #fff; padding: 16px; border-radius: 8px; }
+input, button { font-size: 1rem; padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; }
+button { background: #2563eb; color: #fff; border: none; cursor: pointer; }
+button:hover { background: #1d4ed8; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 10px; border-bottom: 1px solid #e5e7eb; text-align: left; }
+th { background: #2563eb; color: #fff; }
+.msg { margin: 0; padding: 8px 10px; border-radius: 6px; }
+.msg.success { background: #dcfce7; color: #166534; }
+.msg.error { background: #fee2e2; color: #991b1b; }
